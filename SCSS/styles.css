@@ -363,7 +363,7 @@
     .text {
         font-family: "Roboto";
         text-align: center;
-        margin: 15% 5% 0% 5%;
+        margin: 25% 5% 0% 5%;
     }
 
     .text h1:hover {
@@ -392,7 +392,7 @@
     .text {
         font-family: "Roboto";
         text-align: center;
-        margin: 10% 5% 0% 5%;
+        margin: 20% 5% 0% 5%;
     }
 
     .text h1:hover {
@@ -425,7 +425,7 @@
     .text {
         font-family: "Roboto";
         text-align: center;
-        margin-top: 8%;
+        margin-top: 15%;
     }
 
     .text h1:hover {
@@ -463,7 +463,7 @@
     .text {
         font-family: "Roboto";
         text-align: center;
-        margin-top: 5%;
+        margin-top: 13%;
         margin-bottom: 20%;
     }
     
@@ -508,7 +508,7 @@
         font-family: "Roboto";
         text-align: center;
         margin-left: 2% ;
-        margin-top: 22%;
+        margin-top: 25%;
 
     }
     
@@ -542,14 +542,14 @@
     }
 
     .marginB {
-        margin-bottom: 50%;
+        margin-bottom: 30%;
     }
 
     .titulo{
         font-family: "Roboto";
         font-size: 1rem;
         margin-bottom: 10%;
-        margin-top: 8%;
+        margin-top: 38%;
         text-align: center;
         position: relative;
     }
@@ -579,6 +579,10 @@
 }
 @media (min-width: 576px) and (max-width: 767px){
 
+    .marginB {
+        margin-bottom: 30%;
+    }
+
     .tamTrabajos {
         width:80% ;
         margin-bottom: 8%;
@@ -589,7 +593,7 @@
         font-family: "Roboto";
         font-size: 1.2rem;
         margin-bottom: 10%;
-        margin-top: 8%;
+        margin-top: 25%;
         text-align: center;
         position: relative;
     }
@@ -619,6 +623,11 @@
 }
 @media (min-width: 768px) and (max-width: 991px){
 
+
+    .marginB {
+        margin-bottom: 30%;
+    }
+
     .tamTrabajos {
         width:80% ;
         margin-bottom: 8%;
@@ -629,7 +638,7 @@
         font-family: "Roboto";
         font-size: 1.5rem;
         margin-bottom: 8%;
-        margin-top: 6%;
+        margin-top: 20%;
         text-align: center;
         position: relative;
     }
@@ -659,6 +668,11 @@
 }
 @media (min-width: 992px) and (max-width: 1199px){
 
+
+    .marginB {
+        margin-bottom: 20%;
+    }
+
     .tamTrabajos {
         width:80% ;
         margin-bottom: 8%;
@@ -669,7 +683,7 @@
         font-family: "Roboto";
         font-size: 1.5rem;
         margin-bottom: 8%;
-        margin-top: 6%;
+        margin-top: 13%;
         text-align: center;
         position: relative;
     }
@@ -699,6 +713,11 @@
 }
 @media (min-width: 1200px) and (max-width: 1399px){
 
+
+    .marginB {
+        margin-bottom: 20%;
+    }
+
     .tamTrabajos {
         width:80% ;
         margin-bottom: 8%;
@@ -709,7 +728,7 @@
         font-family: "Roboto";
         font-size: 1.5rem;
         margin-bottom: 5%;
-        margin-top: 6%;
+        margin-top: 13%;
         text-align: center;
         position: relative;
     }
@@ -751,7 +770,8 @@
     .titulo{
         font-family: "Roboto";
         font-size: 1.5rem;
-        margin-top: 14%;
+        margin-bottom: 5%;
+        margin-top: 18%;
         text-align: center;
         position: relative;
     }
