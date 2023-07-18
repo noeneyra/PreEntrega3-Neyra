@@ -6,6 +6,8 @@
 .bg-body-tertiary {
     --bs-bg-opacity: 0;
 }
+
+
 @media (max-width: 575px){
 
     body {
@@ -498,7 +500,7 @@
     
     .tamImage{
         width: 90%;
-        margin-left: 95%;
+        margin-left: 90%;
         margin-top: -35%;
     }
     
@@ -1419,6 +1421,72 @@
 
     .mb {
         margin-bottom: 20%;
+    }
+
+}
+
+/*CONTACT*/
+
+@media (max-width: 575px){}
+@media (min-width: 576px) and (max-width: 767px){}
+@media (min-width: 768px) and (max-width: 991px){}
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width: 1200px) and (max-width: 1399px){}
+@media (min-width: 1400px){
+
+    .titulo-co{
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+        margin-top: 4%;
+        text-align: center;
+        width: 90%;
+        margin-left: 6%;
+    }
+    
+    .bg-contact {
+        background-color: #a1999363 ;
+        margin: 0% 36% 4% 40%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    
+    }
+    
+    .form {
+        margin-left: 8%;
+        margin-bottom: 4%;
+    }
+    
+    .space {
+        margin-bottom: 5%;
+    }
+    
+    
+    .style {
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        padding-top: 5%;
+        padding-bottom: 5%;    
+        width: 90%;
+    }
+    
+    .message {
+        padding-bottom: 40%;   
+    }
+    
+    .input-name {
+        margin-left: 0%;
+        text-align: start;
+        font-size: 1rem;
+        font-family: "Roboto";
+        font-weight: 500;
+        margin-top: 2%;
+    }
+    
+    .button {
+        margin-left: 39%;
     }
 
 }
