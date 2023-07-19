@@ -1434,15 +1434,35 @@
 @media (min-width: 1200px) and (max-width: 1399px){}
 @media (min-width: 1400px){
 
-    .titulo-co{
+    .titulo{
         font-family: "Roboto";
-        font-weight: 400;
         font-size: 1.5rem;
-        margin-bottom: 2%;
-        margin-top: 4%;
+        margin-bottom: 5%;
+        margin-top: 18%;
         text-align: center;
-        width: 90%;
-        margin-left: 6%;
+        position: relative;
+    }
+    
+    .titulo::before,
+    .titulo::after {
+        content: "";
+        position: absolute;
+        width: 24%; 
+        height: 1px; 
+        background-color: rgb(99, 99, 99); 
+    
+    }
+    
+    .titulo::before {
+        left: 2px; 
+        margin-left: 21%;
+        margin-top: 0.8%;
+    }
+    
+    .titulo::after {
+        right: 2px; 
+        margin-right: 21%;
+        margin-top: 0.8%;
     }
     
     .bg-contact {
@@ -1487,6 +1507,43 @@
     
     .button {
         margin-left: 39%;
+    }
+
+}
+
+/*THANK YOU*/
+
+@media (max-width: 575px){}
+@media (min-width: 576px) and (max-width: 767px){}
+@media (min-width: 768px) and (max-width: 991px){}
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width: 1200px) and (max-width: 1399px){}
+@media (min-width: 1400px){
+
+    .textT {
+        text-align: center;
+        margin-top: 15%;
+        color: #000000;
+        font-family: "Roboto";
+        
+    }
+
+    .tituloT {
+        font-weight: 400;
+        font-size: 2rem;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+    }
+
+    .subT {
+        margin-top: 5%;
+        font-size: 1.5rem;
+        color: #8890f8;
+    }
+
+    .buttonT{
+        align-items: center;
+        margin-top: 20%;
+
     }
 
 }
