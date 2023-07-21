@@ -4,12 +4,10 @@
 @media (max-width: 575px){
 
     .tituloCont{
-        font-family: "Roboto";
+        @extend %titulos ;
         font-size: 1rem;
         margin-bottom: 10%;
         margin-top: 37%;
-        text-align: center;
-        position: relative;
     }
     
     .tituloCont::before,
@@ -101,12 +99,10 @@
 @media (min-width: 576px) and (max-width: 767px){
 
     .tituloCont{
-        font-family: "Roboto";
+        @extend %titulos ;
         font-size: 1rem;
         margin-bottom: 10%;
         margin-top: 25%;
-        text-align: center;
-        position: relative;
     }
     
     .tituloCont::before,
@@ -198,12 +194,10 @@
 @media (min-width: 768px) and (max-width: 991px){
 
     .tituloCont{
-        font-family: "Roboto";
+        @extend %titulos ;
         font-size: 1.5rem;
         margin-bottom: 8%;
         margin-top: 20%;
-        text-align: center;
-        position: relative;
     }
     
     .tituloCont::before,
@@ -295,12 +289,10 @@
 @media (min-width: 992px) and (max-width: 1199px){
 
     .tituloCont{
-        font-family: "Roboto";
+        @extend %titulos ;
         font-size: 1.5rem;
         margin-bottom: 8%;
         margin-top: 13%;
-        text-align: center;
-        position: relative;
     }
     
     .tituloCont::before,
@@ -394,12 +386,10 @@
 @media (min-width: 1200px) and (max-width: 1399px){
 
     .tituloCont{
-        font-family: "Roboto";
+        @extend %titulos ;
         font-size: 1.5rem;
         margin-bottom: 8%;
         margin-top: 13%;
-        text-align: center;
-        position: relative;
     }
     
     .tituloCont::before,
@@ -493,12 +483,10 @@
 @media (min-width: 1400px){
 
     .tituloCont{
-        font-family: "Roboto";
+        @extend %titulos ;
         font-size: 1.5rem;
         margin-bottom: 5%;
         margin-top: 18%;
-        text-align: center;
-        position: relative;
     }
     
     .tituloCont::before,
