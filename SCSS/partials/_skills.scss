@@ -1,0 +1,286 @@
+/*SKILLS*/
+
+@media (max-width: 575px){
+    
+    
+    .tDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .tDisplay img {
+        width: 150px; 
+    }
+
+    .image-container-uno {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 5%;
+    }
+
+    .image-container-dos {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 10%;
+    }
+
+    .nameSkills {
+        font-family: "Roboto";
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+
+    .mbottom {
+        margin-bottom: 50%;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    .tDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .tDisplay img {
+        width: 200px; 
+    }
+
+    .image-container-uno {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 5%;
+    }
+
+    .image-container-dos {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 10%;
+    }
+
+    .nameSkills {
+        font-family: "Roboto";
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .mbottom {
+        margin-bottom: 50%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+    .tDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .tDisplay img {
+        width: 180px; 
+    }
+
+    .image-container-uno {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 5%;
+    }
+
+    .image-container-dos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 10%;
+
+    }
+
+    .nameSkills {
+        font-family: "Roboto";
+        font-size: 0.9rem;
+        font-weight: 100;
+    }
+
+   .mleftA {
+    margin-left: 2%;
+   }
+
+   .mleft {
+    margin-left: 6%;
+   }
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+    .tDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .tDisplay img {
+        width: 200px; 
+    }
+
+    .image-container-uno {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 5%;
+    }
+
+    .image-container-dos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 10%;
+
+    }
+
+    .nameSkills {
+        font-family: "Roboto";
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+   .mleftA {
+    margin-left: 5%;
+   }
+
+   .mleft {
+    margin-left: 6%;
+   } 
+
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+
+    .tDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .tDisplay img {
+        width: 230px; 
+    }
+
+    .image-container-uno {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 5%;
+    }
+
+    .image-container-dos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 10%;
+
+    }
+
+    .nameSkills {
+        font-family: "Roboto";
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+   .mleftA {
+    margin-left: 3%;
+   }
+
+   .mleft {
+    margin-left: 3%;
+   }
+
+}
+@media (min-width: 1400px){
+    
+    .tamLogo {
+        width: 20%;
+    }
+    
+    .tDisplay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        text-align: center;
+    }
+    
+    .tDisplay img {
+        width: 250px; 
+    }
+
+    .image-container-uno {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 5%;
+    }
+
+    .image-container-dos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: -1%;
+        margin-bottom: 15%;
+    }
+
+    .nameSkills {
+        font-family: "Roboto";
+        font-weight: 100;
+        font-size: 1.2rem;
+    }
+
+    .mleftA {
+        margin-left: 2%;
+    }
+    
+    .mleft {
+        margin-left: 2%;
+    }
+
+
+}

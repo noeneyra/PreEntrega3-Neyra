@@ -1,0 +1,220 @@
+/* PORTADA */
+
+@media (max-width: 575px){
+
+    body {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .tamImage{
+        width: 105%;
+        margin-top: 20%;
+        padding-right: 5%;
+    }
+
+    .text {
+        font-family: "Roboto";
+        text-align: center;
+        margin: 30% 5% 0% 5%;
+    }
+
+    .text h1:hover {
+        color: #8890f8;
+    }
+
+    .textUno {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+    .textDos {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+
+    body {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .tamImage{
+        width: 105%;
+        margin-top: 10%;
+        padding-right: 5%;
+        margin-bottom: 10%;
+    }
+
+    .text {
+        font-family: "Roboto";
+        text-align: center;
+        margin: 25% 5% 0% 5%;
+    }
+
+    .text h1:hover {
+        color: #8890f8;
+    }
+
+    .textUno {
+        font-size: 1.8rem;
+        font-weight: 800;
+    }
+
+    .textDos {
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+    .tamImage{
+        width: 90%;
+        padding-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .text {
+        font-family: "Roboto";
+        text-align: center;
+        margin: 20% 5% 0% 5%;
+    }
+
+    .text h1:hover {
+        color: #8890f8;
+    }
+
+    .textUno {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+
+    .textDos {
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+    body {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .tamImage{
+        width: 65%;
+        margin-bottom: 20%;
+    }
+
+    .text {
+        font-family: "Roboto";
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .text h1:hover {
+        color: #8890f8;
+    }
+
+    .textUno {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .textDos {
+        font-weight: 400;
+        font-size: 1.8rem;
+        margin: 0% 15% 2% 15% ;
+    }
+
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50%;
+    
+    }
+    
+    .tamImage{
+        width: 80%;
+        margin-top: 5%;
+    }
+    
+    
+    .text {
+        font-family: "Roboto";
+        text-align: center;
+        margin-top: 13%;
+        margin-bottom: 20%;
+    }
+    
+    .text h1:hover {
+        color: #8890f8;
+    }
+    
+    .textUno {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    
+    .textDos {
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+
+}
+@media (min-width: 1400px){
+
+    main {
+        margin-top: -8%;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50%;
+    
+    }
+    
+    .tamImage{
+        width: 90%;
+        margin-left: 90%;
+        margin-top: -35%;
+    }
+    
+    
+    .text {
+        width: 50%;
+        font-family: "Roboto";
+        text-align: center;
+        margin-left: 2% ;
+        margin-top: 25%;
+
+    }
+    
+    .text h1:hover {
+        color: #8890f8;
+    }
+    
+    .textUno {
+        font-size: 2.5rem;
+        font-weight: 900; 
+        margin-bottom: 5%;
+
+    }
+    
+    .textDos {
+        font-weight: 400;
+        font-size: 1.8rem;
+        margin: 0% 10% 0% 10%;
+    }
+
+}
