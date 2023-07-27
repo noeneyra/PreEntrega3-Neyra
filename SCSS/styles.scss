@@ -2,15 +2,17 @@
     --bs-bg-opacity: 0;
 }
 
-@import "/SCSS/partials/certifications";
-@import "/SCSS/partials/colors";
-@import "/SCSS/partials/contact";
-@import "/SCSS/partials/footer";
-@import "/SCSS/partials/nav";
-@import "/SCSS/partials/portada";
-@import "/SCSS/partials/skills";
-@import "/SCSS/partials/thanks";
-@import "/SCSS/partials/works";
+
+@import "../SCSS/partials/certifications";
+@import "../SCSS/partials/colors";
+@import "../SCSS/partials/contact";
+@import "../SCSS/partials/footer";
+@import "../SCSS/partials/mixin";
+@import "../SCSS/partials/nav";
+@import "../SCSS/partials/portada";
+@import "../SCSS/partials/skills";
+@import "../SCSS/partials/thanks";
+@import "../SCSS/partials/works";
 
 
 

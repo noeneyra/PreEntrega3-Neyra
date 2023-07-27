@@ -1,6 +1,9 @@
 /*NAVBAR*/
 
 
+@import "../partials/colors";
+
+
 @media (max-width: 575px){
 
     body {
@@ -211,11 +214,15 @@
         margin-bottom: 0;
     }
 
+    .navbar {
+        --bs-navbar-padding-y: 0;
+    }
+
     .container-fluid {
         background-color: $black;
-        --bs-navbar-color:  $white;
-        --bs-navbar-hover-color:$violet;
-        padding-top: 0%;
+        --bs-navbar-color:  #FFFFFF;
+        --bs-navbar-hover-color: #8890f8 ;
+       padding-top: 0%;
         filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
         font-size: 1rem;
     }
@@ -246,11 +253,15 @@
         margin-bottom: 0;
     }
 
+    .navbar {
+        --bs-navbar-padding-y: 0;
+    }
+
     .container-fluid {
         background-color: $black;
-        --bs-navbar-color:  $white;
-        --bs-navbar-hover-color:$violet;
-        padding: 0% 2%;
+        --bs-navbar-color:  #FFFFFF;
+        --bs-navbar-hover-color: #8890f8 ;
+       padding-top: 0%;
         filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
     }
 
@@ -278,10 +289,14 @@
         margin-bottom: 0;
     }
 
+    .navbar {
+        --bs-navbar-padding-y: 0;
+    }
+
     .container-fluid {
         background-color: $black;
-        --bs-navbar-color:  $white;
-        --bs-navbar-hover-color:$violet;
+        --bs-navbar-color:  #FFFFFF;
+        --bs-navbar-hover-color: #8890f8 ;
        padding-top: 0%;
         filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
     }
