@@ -1359,6 +1359,7 @@
 @media (min-width: 1400px) {
   main {
     margin-top: -8%;
+    margin-bottom: 5%;
   }
   .container {
     display: flex;
