@@ -744,6 +744,7 @@
   }
   .footer {
     background-color: #000000;
+    margin-bottom: -10%;
   }
   .footer .social {
     text-align: center;
@@ -785,6 +786,7 @@
   }
   .footer {
     background-color: #000000;
+    margin-bottom: -20%;
   }
   .footer .social {
     text-align: center;
@@ -826,6 +828,7 @@
   }
   .footer {
     background-color: #000000;
+    margin-bottom: -2%;
   }
   .footer .social {
     text-align: center;
@@ -1223,6 +1226,9 @@
 }
 /* PORTADA */
 @media (max-width: 575px) {
+  main {
+    margin-bottom: 15%;
+  }
   body {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -1250,6 +1256,9 @@
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+  main {
+    margin-bottom: 5%;
+  }
   body {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -1278,6 +1287,9 @@
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  main {
+    margin-bottom: 12%;
+  }
   .tamImage {
     width: 90%;
     padding-right: 5%;
@@ -1359,7 +1371,7 @@
 @media (min-width: 1400px) {
   main {
     margin-top: -8%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
   .container {
     display: flex;

@@ -2,6 +2,10 @@
 
 @media (max-width: 575px){
 
+    main {
+        margin-bottom: 15%;
+    }
+
     body {
         padding-bottom: 0;
         margin-bottom: 0;
@@ -35,6 +39,11 @@
 
 }
 @media (min-width: 576px) and (max-width: 767px){
+
+    main{
+        margin-bottom: 5%;
+
+    }
 
     body {
         padding-bottom: 0;
@@ -70,6 +79,10 @@
 
 }
 @media (min-width: 768px) and (max-width: 991px){
+
+    main {
+        margin-bottom: 12%;
+    }
 
     .tamImage{
         width: 90%;
@@ -174,7 +187,7 @@
 
     main {
         margin-top: -8%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 
     .container {
