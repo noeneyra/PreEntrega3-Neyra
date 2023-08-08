@@ -266,6 +266,8 @@
     margin-bottom: 20%;
   }
 }
+
+
 /*CONTACT*/
 @media (max-width: 575px) {
   .tituloCont {
@@ -728,6 +730,8 @@
     text-decoration: none;
   }
 }
+
+
 /* FOOTER */
 @media (max-width: 575px) {
   .tamLi {
@@ -979,6 +983,8 @@
     color: #aaa;
   }
 }
+
+
 /*NAVBAR*/
 @media (max-width: 575px) {
   body {
@@ -1224,6 +1230,8 @@
     transform: scale(1.1);
   }
 }
+
+
 /* PORTADA */
 @media (max-width: 575px) {
   main {
@@ -1405,6 +1413,8 @@
     margin: 0% 10% 0% 10%;
   }
 }
+
+
 /*SKILLS*/
 @media (max-width: 575px) {
   .tDisplay {
@@ -1637,6 +1647,8 @@
     margin-left: 2%;
   }
 }
+
+
 /*THANK YOU*/
 @media (max-width: 575px) {
   .textT {
@@ -1819,6 +1831,8 @@
     color: #8890f8;
   }
 }
+
+
 /*WORKS*/
 @media (max-width: 575px) {
   .tamTrabajos {
